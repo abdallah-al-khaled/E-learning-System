@@ -1,0 +1,170 @@
+.login-page {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .login-page h2 {
+    text-align: center;
+  }
+  
+  .login-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-page input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .login-page button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* src/pages/EnrollPage.css */
+
+.classes {
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.classes h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.classes p {
+  text-align: center;
+  color: green;
+}
+
+.classes ul {
+  list-style: none;
+  padding: 0;
+  width: 30%;
+}
+
+.classes li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.classes li:hover {
+  transform: translateY(-5px);
+}
+
+.classes h2 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+}
+
+.classes p {
+  margin: 0 0 10px 0;
+  color: #555;
+}
+
+.classes button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.classes button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/styles/WithdrawClass.css */
+.withdraw-class {
+  max-width: 600px;
+  margin: auto;
+}
+
+.withdraw-class ul {
+  list-style: none;
+  padding: 0;
+}
+
+.withdraw-class li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f9f9f9;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+}
+
+.withdraw-class button {
+  padding: 5px 10px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+}
+
+.modal textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.modal button {
+  padding: 5px 10px;
+  margin: 5px;
+}

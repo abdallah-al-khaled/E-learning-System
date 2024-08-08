@@ -1,0 +1,57 @@
+/* FileList.css */
+.file-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 430px;
+  }
+  
+  .file-list h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .file-list ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .file-item:last-child {
+    border-bottom: none;
+  }
+  
+  .file-name {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .download-button {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  

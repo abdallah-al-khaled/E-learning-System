@@ -1,0 +1,36 @@
+/* Profile.css */
+.profile-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .classes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+
+  }
+  
+  .class-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.3s ease;
+
+  }
+
+  .class-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .class-card h2 {
+    margin-top: 0;
+  }
+  
